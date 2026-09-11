@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Measurement data
+data/*
+!data/.gitkeep
+messungen*.json
+*.csv
+
+# Generated analysis
+*.npy
+eit_auswertung/
+sweep_vergleich/
+adj_betrag_auswertung/
+analysis_output/
+
+# Local calibration profiles
+calibration_profiles/*
+!calibration_profiles/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+{
+  "measurement": {
+    "mode": "normal",
+    "output_file": "data/messungen1.json"
+  },
+
+  "calibration": {
+    "frequency_file": "config/calibration_frequencies_full.json",
+    "profile_directory": "calibration_profiles"
+  },
+
+  "auto": {
+    "duration_seconds": 60,
+    "wait_seconds": 5
+  },
+
+  "serial": {
+    "baud": 115200,
+    "timeout": 0.05
+  }
+}
